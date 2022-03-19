@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Interactions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style(display table).css">
+</head>
+<body>
+    <aside class="contacts">
+        <h2>My contacts</h2>
+        <ul>
+            <li id="contact-1">
+                <span class="other-actions">
+                    <a href="#contact-1">:<i class="fa-solid fa-ellipsis-stroke-vertical"></i></a>
+                </span>
+                <span class="other-actions-details">
+                    <div>
+                        <a href="#">block</a>
+                        <a href="#">delete</a>
+                    </div>
+                </span>
+                <figure class="avatar"> 
+                    <img src="images/avataaars (1).png" alt="Jared Leto">
+                    <figcaption class="status "></figcaption>
+<!--  HW2--Din punct de vedere semantic se potrivește elementul figure,deoarece acesta marchează
+ o fotografie într-un document ,iar elementul figcaption a fost ales pentru a înlocui celălalt span,deoarece
+acesta se utilizează pentru a marca descrierea atașată fotografiei din elementul figure.  -->
+                </figure>
+                <span class="info">
+                    <span>Jared Leto</span>
+                    <span>Hi,how are you?</span>
+                </span>
+                <span class="action">
+                    <a href="#contact-1" class="add">+</a>
+                </span>
+                <span class="add-details">
+                    <div>
+                    <a href="#">friend</a>
+                    <a href="#">follow</a>
+                    </div>
+                </span>
+            </li>
+        </ul>
+    </aside>
+    <!-- 
+        hw.1:
+        Section -element semantic care definește o secțiune dintr-un document.
+        --O secțiune este o grupare tematică de conținut, de obicei cu un titlu.
+        --este un element de secționare generic și ar trebui utilizat 
+        numai dacă nu există un element mai specific care să-l reprezinte. De 
+        exemplu, un meniu de navigare ar trebui să fie înglobat într-un <nav>element, 
+        dar o listă de rezultate ale căutării sau o afișare a hărții și controalele sale 
+        nu au elemente specifice și ar putea fi introduse într-un <section>.
+     
+        Aside-reprezintă o porțiune a unui document al cărei conținut este legat doar indirect
+         de conținutul principal al documentului. Aside-urile sunt adesea prezentate ca bare laterale sau casete de apelare.
+        --Dacă conținutul reprezintă informații tangențiale utile care funcționează alături
+        de conținutul principal, dar nu fac parte direct din acesta (cum ar fi link-uri conexe
+         sau biografia autorului), se utilizează elementul <aside>.
+        -->
+</body>
+</html>
